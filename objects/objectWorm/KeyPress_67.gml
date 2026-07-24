@@ -1,0 +1,1 @@
+self.wormSpeed = 0

@@ -5,8 +5,8 @@ var handle_worm = objectWorm
 var worm_posx = handle_worm.x
 var worm_posy = handle_worm.y
 
-self.width = 480
-self.height = 640
+self.width = 640
+self.height = 480
 self.scale = 1
 
 var camera_width = self.width
@@ -22,8 +22,8 @@ view_camera[0] = camera_create_view(
 	camera_height,
 	0,
 	handle_worm,
-	-1,
-	-1,
-	0,
-	0
+	0.5,
+	0.5,
+	infinity,
+	infinity
 )
