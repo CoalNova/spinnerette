@@ -1,5 +1,5 @@
-view_enabled = true;
-view_visible[0] = true;
+view_enabled = true
+view_visible[0] = true
 
 var handle_worm = objectWorm
 var worm_posx = handle_worm.x
@@ -8,6 +8,7 @@ var worm_posy = handle_worm.y
 self.width = 640
 self.height = 480
 self.scale = 1
+self.modified = 0
 
 var camera_width = self.width
 var camera_height = self.height
@@ -22,8 +23,8 @@ view_camera[0] = camera_create_view(
 	camera_height,
 	0,
 	handle_worm,
-	0.5,
-	0.5,
+	1,
+	1,
 	infinity,
 	infinity
 )
