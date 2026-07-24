@@ -7,5 +7,6 @@ function scriptGrabNode(){
 	    y = node.y;
 		image_angle = (image_angle + 180) % 360;
 		self.worm_flip *= -1;
+		is_bound = true;
 	}
 }
