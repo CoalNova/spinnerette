@@ -28,7 +28,7 @@
   "resources":[
     {"id":{"name":"controlWindow","path":"objects/controlWindow/controlWindow.yy",},},
     {"id":{"name":"controlWormCamera","path":"objects/controlWormCamera/controlWormCamera.yy",},},
-    {"id":{"name":"objectNodeBasic","path":"objects/objectNodeBasic/objectNodeBasic.yy",},},
+    {"id":{"name":"objectGearBasic","path":"objects/objectGearBasic/objectGearBasic.yy",},},
     {"id":{"name":"objectWorm","path":"objects/objectWorm/objectWorm.yy",},},
     {"id":{"name":"credits","path":"rooms/credits/credits.yy",},},
     {"id":{"name":"level10AllHard","path":"rooms/level10AllHard/level10AllHard.yy",},},
@@ -43,7 +43,7 @@
     {"id":{"name":"level9AllEasy","path":"rooms/level9AllEasy/level9AllEasy.yy",},},
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"id":{"name":"qaSmokeAll","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},},
-    {"id":{"name":"spriteNode","path":"sprites/spriteNode/spriteNode.yy",},},
+    {"id":{"name":"spriteGear","path":"sprites/spriteGear/spriteGear.yy",},},
     {"id":{"name":"spriteWorm","path":"sprites/spriteWorm/spriteWorm.yy",},},
   ],
   "resourceType":"GMProject",

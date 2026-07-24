@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objectNodeBasic",
+  "%Name":"objectGearBasic",
   "eventList":[],
   "managed":true,
-  "name":"objectNodeBasic",
+  "name":"objectGearBasic",
   "overriddenProperties":[],
   "parent":{
     "name":"entities",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spriteNode",
-    "path":"sprites/spriteNode/spriteNode.yy",
+    "name":"spriteGear",
+    "path":"sprites/spriteGear/spriteGear.yy",
   },
   "spriteMaskId":null,
   "visible":true,
