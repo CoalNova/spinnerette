@@ -1,1 +1,0 @@
-self.worm_speed = 2

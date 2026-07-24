@@ -1,0 +1,1 @@
+self.worm_speed = self.worm_speed_default

@@ -1,1 +1,1 @@
-self.flip *= -1
+self.worm_flip *= -1
