@@ -11,6 +11,7 @@ var handle_endpoint = {
 var handle_collide = instance_position(handle_endpoint.xpos, handle_endpoint.ypos, objectGearBasic)
 
 if (handle_collide != noone) {
-    x = handle_collide.x;
-    y = handle_collide.y;
+    x = handle_collide.x
+    y = handle_collide.y
+	image_angle -= 180
 }
