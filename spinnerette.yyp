@@ -19,7 +19,11 @@
   },
   "name":"spinnerette",
   "resources":[
+    {"id":{"name":"oNode","path":"objects/oNode/oNode.yy",},},
+    {"id":{"name":"oRod","path":"objects/oRod/oRod.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sNode","path":"sprites/sNode/sNode.yy",},},
+    {"id":{"name":"sRod","path":"sprites/sRod/sRod.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
