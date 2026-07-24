@@ -2,5 +2,5 @@
 event_inherited();
 ui_activate_button = function()
 {
-	room_goto(settingsMenu)
+	room_goto(mainMenu)
 }
