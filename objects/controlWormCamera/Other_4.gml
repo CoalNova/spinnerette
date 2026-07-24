@@ -5,8 +5,8 @@ var handle_worm = objectWorm
 var worm_posx = handle_worm.x
 var worm_posy = handle_worm.y
 
-self.width = 480
-self.height = 640
+self.width = 640
+self.height = 480
 self.scale = 1
 
 var camera_width = self.width
