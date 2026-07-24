@@ -1,12 +1,12 @@
 var camera_id = view_camera[0]
 
-var camera_handle = self.camera
-var camera_scale = camera_handle.scale
-var camera_width_scaled = camera_handle.width * camera_scale
-var camera_height_scaled = camera_handle.height * camera_scale
+var camera_scale = self.scale
 
-var camera_width = self.camera.width
-var camera_height = self.camera.height
+var camera_width = self.width
+var camera_height = self.height
+
+var camera_width_scaled = camera_width * camera_scale
+var camera_height_scaled = camera_height * camera_scale
 
 var handle_worm = objectWorm
 var worm_posx = handle_worm.x

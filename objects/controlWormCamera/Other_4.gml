@@ -5,13 +5,12 @@ var handle_worm = objectWorm
 var worm_posx = handle_worm.x
 var worm_posy = handle_worm.y
 
-self.camera = {}
-self.camera.width = 480
-self.camera.height = 640
-self.camera.scale = 1
+self.width = 480
+self.height = 640
+self.scale = 1
 
-var camera_width = self.camera.width
-var camera_height = self.camera.height
+var camera_width = self.width
+var camera_height = self.height
 
 var camera_worm_posx_offset = worm_posx - (camera_width / 2)
 var camera_worm_posy_offset = worm_posy - (camera_height / 2)
