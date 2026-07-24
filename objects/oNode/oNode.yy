@@ -6,8 +6,8 @@
   "name":"oNode",
   "overriddenProperties":[],
   "parent":{
-    "name":"spinnerette",
-    "path":"spinnerette.yyp",
+    "name":"entities",
+    "path":"folders/entities.yy",
   },
   "parentObjectId":null,
   "persistent":false,

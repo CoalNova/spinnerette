@@ -9,7 +9,13 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"entities","folderPath":"folders/entities.yy","name":"entities","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"levels","folderPath":"folders/levels.yy","name":"levels","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"qaSmoke","folderPath":"folders/qaSmoke.yy","name":"qaSmoke","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"terrain","folderPath":"folders/terrain.yy","name":"terrain","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -21,14 +27,14 @@
   "resources":[
     {"id":{"name":"oNode","path":"objects/oNode/oNode.yy",},},
     {"id":{"name":"oRod","path":"objects/oRod/oRod.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"qaSmokeAll","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},},
     {"id":{"name":"sNode","path":"sprites/sNode/sNode.yy",},},
     {"id":{"name":"sRod","path":"sprites/sRod/sRod.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"qaSmokeAll","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
