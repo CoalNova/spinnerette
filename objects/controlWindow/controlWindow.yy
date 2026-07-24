@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oNode",
-  "eventList":[],
+  "%Name":"controlWindow",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oNode",
+  "name":"controlWindow",
   "overriddenProperties":[],
   "parent":{
-    "name":"entities",
-    "path":"folders/entities.yy",
+    "name":"controllers",
+    "path":"folders/controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sNode",
-    "path":"sprites/sNode/sNode.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

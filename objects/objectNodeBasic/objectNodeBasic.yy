@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oRod",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objectNodeBasic",
+  "eventList":[],
   "managed":true,
-  "name":"oRod",
+  "name":"objectNodeBasic",
   "overriddenProperties":[],
   "parent":{
     "name":"entities",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRod",
-    "path":"sprites/sRod/sRod.yy",
+    "name":"spriteNode",
+    "path":"sprites/spriteNode/spriteNode.yy",
   },
   "spriteMaskId":null,
   "visible":true,
