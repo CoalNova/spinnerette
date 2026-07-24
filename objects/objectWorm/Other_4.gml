@@ -1,4 +1,6 @@
 self.stretch = 1
+self.flip = 1
+self.wormSpeed = 0
 
 var rooms_stretch = [
 	level3StretchEasy,
