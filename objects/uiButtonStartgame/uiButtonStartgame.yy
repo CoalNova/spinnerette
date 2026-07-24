@@ -1,21 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"ui_button_exitgame",
+  "%Name":"uiButtonStartgame",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ui_button_exitgame",
+  "name":"uiButtonStartgame",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ui_button_parent","path":"objects/ui_button_parent/ui_button_parent.yy",},"propertyId":{"name":"ui_button_text","path":"objects/ui_button_parent/ui_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Exit To Desktop",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"uiButtonParent","path":"objects/uiButtonParent/uiButtonParent.yy",},"propertyId":{"name":"ui_button_text","path":"objects/uiButtonParent/uiButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
   ],
   "parent":{
     "name":"menu",
     "path":"folders/menu.yy",
   },
   "parentObjectId":{
-    "name":"ui_button_parent",
-    "path":"objects/ui_button_parent/ui_button_parent.yy",
+    "name":"uiButtonParent",
+    "path":"objects/uiButtonParent/uiButtonParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
