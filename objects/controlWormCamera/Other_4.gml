@@ -22,8 +22,8 @@ view_camera[0] = camera_create_view(
 	camera_height,
 	0,
 	handle_worm,
-	-1,
-	-1,
-	0,
-	0
+	0.5,
+	0.5,
+	infinity,
+	infinity
 )
