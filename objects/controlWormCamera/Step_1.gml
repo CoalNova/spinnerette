@@ -30,4 +30,5 @@ if (self.modified) {
 		camera_xpos_offset,
 		camera_ypos_offset
 	)
+
 }

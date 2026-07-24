@@ -6,5 +6,5 @@ if (self.flag_stretch) {
 }
 
 if (self.flag_speed) {
-	image_angle += (self.wormSpeed * self.flip)
+	image_angle += (self.wormSpeed * self.flip) - (self.flip ? 1 : 0)
 }
