@@ -20,9 +20,11 @@
   "name":"spinnerette",
   "resources":[
     {"id":{"name":"oNode","path":"objects/oNode/oNode.yy",},},
+    {"id":{"name":"oPellet","path":"objects/oPellet/oPellet.yy",},},
     {"id":{"name":"oRod","path":"objects/oRod/oRod.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sNode","path":"sprites/sNode/sNode.yy",},},
+    {"id":{"name":"sPellet","path":"sprites/sPellet/sPellet.yy",},},
     {"id":{"name":"sRod","path":"sprites/sRod/sRod.yy",},},
   ],
   "resourceType":"GMProject",
