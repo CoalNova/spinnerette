@@ -1,1 +1,1 @@
-self.worm_speed = 0
+self.worm_speed = 1
