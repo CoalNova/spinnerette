@@ -9,7 +9,7 @@ if(mouse_check_button_released(mb_left))
 	ui_button_clicked = false;
 	if(ui_button_hovering)
 {
-		//audio_play_sound(ui_button_click_sound, 0, 0, 1, undefined, 1);	
+		//audio_play_sound(uiSoundTest, 0, 0, 1, undefined, 1);	
 		ui_activate_button();
 }
 }

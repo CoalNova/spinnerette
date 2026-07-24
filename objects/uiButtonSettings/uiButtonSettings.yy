@@ -7,7 +7,7 @@
   "managed":true,
   "name":"uiButtonSettings",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"uiButtonParent","path":"objects/uiButtonParent/uiButtonParent.yy",},"propertyId":{"name":"ui_button_text","path":"objects/uiButtonParent/uiButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Settings",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"uiButtonParent","path":"objects/uiButtonParent/uiButtonParent.yy",},"propertyId":{"name":"ui_button_text","path":"objects/uiButtonParent/uiButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Settings\"",},
   ],
   "parent":{
     "name":"menu",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spriteGear",
-    "path":"sprites/spriteGear/spriteGear.yy",
+    "name":"spriteMenuButtons",
+    "path":"sprites/spriteMenuButtons/spriteMenuButtons.yy",
   },
   "spriteMaskId":null,
   "visible":true,
