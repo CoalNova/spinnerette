@@ -14,4 +14,5 @@ if (handle_collide != noone) {
     x = handle_collide.x
     y = handle_collide.y
 	image_angle -= 180
+	self.worm_flip *= -1
 }
