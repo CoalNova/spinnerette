@@ -10,7 +10,7 @@ if (is_bound) {
 	// Apply flight
 	scriptComputeEnd(self)
 	var worm_speed = self.worm_speed
-	self.x += ((self.end_x - self.x) * (worm_speed)) * 0.05
-	self.y += ((self.end_y - self.y) * (worm_speed)) * 0.05
+	self.x += ((self.end_x - self.x) * (worm_speed)) * (1 / worm_stretch) * 0.05
+	self.y += ((self.end_y - self.y) * (worm_speed)) * (1 / worm_stretch) * 0.05
 	scriptGrabNode(self)
 }
