@@ -1,2 +1,3 @@
-// Launch in Vector based on spin speed
-is_bound = false;
+// Launch in a line based on spin speed
+
+self.is_bound = false;

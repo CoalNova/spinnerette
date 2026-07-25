@@ -1,3 +1,5 @@
+// Increase leftwards rotation speed
+
 var worm_speed_old = self.worm_speed
 var worm_speed_min = self.worm_speed_min
 var worm_speed_max = self.worm_speed_max

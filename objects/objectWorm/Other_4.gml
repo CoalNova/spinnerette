@@ -8,6 +8,8 @@ self.worm_speed_default = 2
 self.worm_speed = self.worm_speed_default
 self.worm_speed_min = 1
 self.worm_speed_max = 4
+self.is_bound = true
+scriptComputeEnd(self)
 
 var rooms_stretch = [
 	level3StretchEasy,
