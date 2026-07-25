@@ -62,6 +62,7 @@
     {"id":{"name":"scriptComputeEnd","path":"scripts/scriptComputeEnd/scriptComputeEnd.yy",},},
     {"id":{"name":"scriptGrabNode","path":"scripts/scriptGrabNode/scriptGrabNode.yy",},},
     {"id":{"name":"spriteEvilWorm","path":"sprites/spriteEvilWorm/spriteEvilWorm.yy",},},
+    {"id":{"name":"spriteExplosion","path":"sprites/spriteExplosion/spriteExplosion.yy",},},
     {"id":{"name":"spriteGear","path":"sprites/spriteGear/spriteGear.yy",},},
     {"id":{"name":"spriteMenuButtons","path":"sprites/spriteMenuButtons/spriteMenuButtons.yy",},},
     {"id":{"name":"spriteMenuButtonsStar","path":"sprites/spriteMenuButtonsStar/spriteMenuButtonsStar.yy",},},
