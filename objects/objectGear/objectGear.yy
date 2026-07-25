@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objectGearBronze",
+  "%Name":"objectGear",
   "eventList":[],
   "managed":true,
-  "name":"objectGearBronze",
+  "name":"objectGear",
   "overriddenProperties":[],
   "parent":{
     "name":"entities",
     "path":"folders/entities.yy",
   },
-  "parentObjectId":{
-    "name":"objectGear",
-    "path":"objects/objectGear/objectGear.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spriteBronzeGear",
-    "path":"sprites/spriteBronzeGear/spriteBronzeGear.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

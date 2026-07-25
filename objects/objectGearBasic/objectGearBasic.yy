@@ -9,7 +9,10 @@
     "name":"entities",
     "path":"folders/entities.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objectGear",
+    "path":"objects/objectGear/objectGear.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
