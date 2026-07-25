@@ -9,6 +9,8 @@ self.worm_speed = self.worm_speed_default
 self.worm_speed_min = 1
 self.worm_speed_max = 4
 self.is_bound = true
+self.start_x = self.x
+self.start_y = self.y
 scriptComputeEnd(self)
 
 var rooms_stretch = [
@@ -19,7 +21,7 @@ var rooms_stretch = [
 	level7JumpEasy,
 	level8JumpHard,
 	level9AllEasy,
-	level10AllHard
+	level10AllHard,
 ]
 
 var rooms_speed = [
@@ -28,16 +30,23 @@ var rooms_speed = [
 	level7JumpEasy,
 	level8JumpHard,
 	level9AllEasy,
-	level10AllHard
+	level10AllHard,
 ]
 
 var rooms_jump = [
 	level7JumpEasy,
 	level8JumpHard,
 	level9AllEasy,
-	level10AllHard
+	level10AllHard,
 ]
 
-self.flag_stretch = (room == qaSmokeAll) || ds_list_find_index(rooms_stretch, room)
-self.flag_speed = (room == qaSmokeAll) || ds_list_find_index(rooms_speed, room)
-self.flag_jump = (room == qaSmokeAll) || ds_list_find_index(rooms_jump, room)
+var rooms_debug = [
+	qaSmokeAll,
+]
+
+var handle_room = room
+var flag_debug = array_contains(rooms_debug, handle_room)
+self.flag_stretch = flag_debug || array_contains(rooms_stretch, handle_room)
+self.flag_speed = flag_debug || array_contains(rooms_speed, handle_room)
+self.flag_jump = flag_debug || array_contains(rooms_jump, handle_room)
+self.flag_debug = flag_debug
