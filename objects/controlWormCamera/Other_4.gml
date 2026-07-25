@@ -11,7 +11,8 @@ self.camera_width = window_get_width() / 2
 self.camera_height = window_get_height() / 2
 self.camera_scale = 1
 self.camera_scale_min = 0.8
-self.camera_scale_max = 1.5
+self.camera_scale_max = 1.6
+self.camera_scale_step = 0.08
 self.camera_modified = 0
 
 var camera_width = self.camera_width
@@ -26,9 +27,9 @@ view_camera[self.camera_index] = camera_create_view(
 	camera_width,
 	camera_height,
 	0,
-	handle_worm,
-	1,
-	1,
+	-1,
+	-1,
+	-1,
 	0,
 	0
 )
