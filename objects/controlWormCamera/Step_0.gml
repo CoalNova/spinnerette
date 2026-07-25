@@ -1,4 +1,4 @@
-var camera_id = view_camera[0]
+var camera_id = self.camera_id
 var handle_worm = objectWorm
 var worm_posx = handle_worm.x
 var worm_posy = handle_worm.y

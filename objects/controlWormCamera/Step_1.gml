@@ -2,7 +2,7 @@ if (self.modified) {
 	
 	self.modified = 0
 	
-	var camera_id = view_camera[0]
+	var camera_id = self.camera_id
 
 	var camera_scale = self.scale
 	var camera_width = self.width
