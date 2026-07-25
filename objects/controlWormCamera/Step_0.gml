@@ -3,8 +3,8 @@ var handle_worm = objectWorm
 var worm_posx = handle_worm.x
 var worm_posy = handle_worm.y
 
-var camera_width = self.width
-var camera_height = self.height
+var camera_width = self.camera_width
+var camera_height = self.camera_height
 var camera_x = camera_get_view_x(camera_id);
 var camera_y = camera_get_view_y(camera_id);
 

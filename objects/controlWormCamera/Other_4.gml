@@ -7,13 +7,15 @@ var handle_worm = objectWorm
 var worm_posx = handle_worm.x
 var worm_posy = handle_worm.y
 
-self.width = window_get_width() / 2
-self.height = window_get_height() / 2
-self.scale = 1
-self.modified = 0
+self.camera_width = window_get_width() / 2
+self.camera_height = window_get_height() / 2
+self.camera_scale = 1
+self.camera_scale_min = 0.8
+self.camera_scale_max = 1.5
+self.camera_modified = 0
 
-var camera_width = self.width
-var camera_height = self.height
+var camera_width = self.camera_width
+var camera_height = self.camera_height
 
 var camera_worm_posx_offset = worm_posx - (camera_width / 2)
 var camera_worm_posy_offset = worm_posy - (camera_height / 2)

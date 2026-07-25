@@ -1,12 +1,12 @@
-if (self.modified) {
+if (self.camera_modified) {
 	
-	self.modified = 0
+	self.camera_modified = 0
 	
 	var camera_id = self.camera_id
 
-	var camera_scale = self.scale
-	var camera_width = self.width
-	var camera_height = self.height
+	var camera_scale = self.camera_scale
+	var camera_width = self.camera_width
+	var camera_height = self.camera_height
 
 	var camera_width_scaled = camera_width * camera_scale
 	var camera_height_scaled = camera_height * camera_scale
