@@ -3,11 +3,11 @@ self.depth = -200
 // esc pause r space f
 
 var controls = [
-	spritePromptEsc,
-	spritePromptPause,
-	spritePromptR,
-	spritePromptSpace,
-	spritePromptF
+	{sprite: spritePromptEsc, text: "Back to main menu" },
+	{sprite: spritePromptPause, text: "Pause game" },
+	{sprite: spritePromptR, text: "Restart"},
+	{sprite: spritePromptSpace, text: "Switch gears"},
+	{sprite: spritePromptF, text: "Flip direction"}
 ]
 
 var worm = objectWorm
@@ -17,15 +17,15 @@ var flags = controlFlag
 show_debug_message( array_length(controls))
 
 if (worm.flag_speed || worm.flag_debug) {
-	array_push(controls, spritePromptA, spritePromptD)
+	array_push(controls, {sprite: spritePromptA, text: "speed up"}, {sprite: spritePromptD, text: "slow down"})
 }
 
 if (worm.flag_stretch || worm.flag_debug) {
-	array_push(controls, spritePromptW, spritePromptS)
+	array_push(controls, {sprite: spritePromptW, text: "extend"}, {sprite: spritePromptS, text: "retract"})
 }
 
 if (worm.flag_jump || worm.flag_debug) {
-	array_push(controls, spritePromptShift)
+	array_push(controls, {sprite: spritePromptShift, text: "jump!"})
 }
 
 show_debug_message( array_length(controls))
@@ -37,14 +37,13 @@ var handle_surface = surface_create(250, surface_height)
 surface_set_target(handle_surface)
 
 
-var draw_sprites = function(sprite, _index) {
-    draw_sprite(sprite, 0, 0, _index * 64)
+var draw_sprites = function(s, _index) {
+    draw_sprite(s.sprite, 0, 0, _index * 64)
+	//draw_text(165, 32 + _index * 64, s.text)
+	draw_text_colour(165, 32 + _index * 64, s.text, c_white, c_white, c_white, c_white, 1)
 }
 
 array_foreach(controls, draw_sprites);
-
-
-//draw_sprite(spritePromptA, 0, 0, 0)
 
 surface_reset_target()
 
