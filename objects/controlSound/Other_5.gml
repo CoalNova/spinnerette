@@ -1,1 +1,3 @@
-audio_stop_all()
+if (!self.audio_persist) {
+	audio_stop_all()
+}

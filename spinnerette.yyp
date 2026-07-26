@@ -71,6 +71,7 @@
     {"id":{"name":"scriptCheckCollision","path":"scripts/scriptCheckCollision/scriptCheckCollision.yy",},},
     {"id":{"name":"scriptComputeEnd","path":"scripts/scriptComputeEnd/scriptComputeEnd.yy",},},
     {"id":{"name":"scriptGrabNode","path":"scripts/scriptGrabNode/scriptGrabNode.yy",},},
+    {"id":{"name":"scriptPersistAudioGoto","path":"scripts/scriptPersistAudioGoto/scriptPersistAudioGoto.yy",},},
     {"id":{"name":"scriptSpeedControl","path":"scripts/scriptSpeedControl/scriptSpeedControl.yy",},},
     {"id":{"name":"scriptStretchControl","path":"scripts/scriptStretchControl/scriptStretchControl.yy",},},
     {"id":{"name":"BlipFwd","path":"sounds/BlipFwd/BlipFwd.yy",},},
