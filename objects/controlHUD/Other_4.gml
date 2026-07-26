@@ -24,11 +24,27 @@ var surface_width = 250
 var handle_surface = surface_create(surface_width, surface_height)
 surface_set_target(handle_surface)
 
+function text_drop_shadow(_x, _y, _color, _color_shadow, _string, _h_offset, _v_offset){  
+    draw_set_color(_color_shadow);
+    draw_text(_x, _y, _string);
+    draw_set_color(_color);
+    draw_text(_x+_h_offset, _y+_v_offset, _string);
+   
+}
 
-var draw_sprites = function(in_sprite, _index) {
+var draw_sprites = function(in_pair, in_index) {
 	var icon_height = 64
-    draw_sprite(in_sprite.sprite, 0, 0, _index * icon_height)
-	draw_text_colour(165, 32 + _index * icon_height, in_sprite.text, c_white, c_white, c_white, c_white, 1)
+    draw_sprite(in_pair.sprite, 0, 0, in_index * icon_height)
+	draw_set_color(c_black)
+	var buffer_x = 165
+	var buffer_y = 32 + (in_index * icon_height)
+	var text_offset = 3
+    draw_text(buffer_x - text_offset, buffer_y - text_offset, in_pair.text)
+	draw_text(buffer_x + text_offset, buffer_y - text_offset, in_pair.text)
+	draw_text(buffer_x - text_offset, buffer_y + text_offset, in_pair.text)
+	draw_text(buffer_x + text_offset, buffer_y + text_offset, in_pair.text)
+	draw_set_color(c_white)
+	draw_text(buffer_x, buffer_y, in_pair.text)
 }
 
 array_foreach(controls, draw_sprites);
