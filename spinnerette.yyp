@@ -93,6 +93,8 @@
     {"id":{"name":"spriteSettings","path":"sprites/spriteSettings/spriteSettings.yy",},},
     {"id":{"name":"spriteWall","path":"sprites/spriteWall/spriteWall.yy",},},
     {"id":{"name":"spriteWallSet1","path":"sprites/spriteWallSet1/spriteWallSet1.yy",},},
+    {"id":{"name":"spriteWallSet2","path":"sprites/spriteWallSet2/spriteWallSet2.yy",},},
+    {"id":{"name":"spriteWallSet3","path":"sprites/spriteWallSet3/spriteWallSet3.yy",},},
     {"id":{"name":"spriteWindKey","path":"sprites/spriteWindKey/spriteWindKey.yy",},},
     {"id":{"name":"spriteWorm","path":"sprites/spriteWorm/spriteWorm.yy",},},
   ],
