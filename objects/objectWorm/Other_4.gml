@@ -1,11 +1,17 @@
 depth = -16000
 
+enum DIR {
+	LEFT,
+	RIGHT
+}
+
 self.worm_stretch = 1
 self.worm_stretch_min = 1
 self.worm_stretch_max = 3
 self.worm_flip = 1
-self.worm_speed_default = 2
-self.worm_speed = self.worm_speed_default
+self.worm_speed = 2
+self.worm_speed_acc = 1.10
+self.worm_speed_dec = 0.80
 self.worm_speed_min = 1
 self.worm_speed_max = 4
 self.is_bound = true
