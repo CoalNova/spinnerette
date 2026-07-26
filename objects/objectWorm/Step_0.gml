@@ -6,7 +6,7 @@ script_compute_end(self)
 
 // Apply rotation
 if (is_bound) {
-	self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 1) * self.worm_flip
+	self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 2) * self.worm_flip
 } else {
 	// Apply flight
 	var worm_speed = self.worm_speed
@@ -18,7 +18,7 @@ if (is_bound) {
 if (script_check_collision(self, objectWall)) {
 	if (self.is_bound) {
 		self.worm_flip *= -1;
-		self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 1) * self.worm_flip * 2
+		self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 2) * self.worm_flip * 2
 	} else if (self.flag_debug) {
 		self.x = self.start_x
 		self.y = self.start_y

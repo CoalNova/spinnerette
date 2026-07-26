@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"uiButtonSettingsBack",
+  "%Name":"uiButtonBackToMainMenu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"uiButtonSettingsBack",
+  "name":"uiButtonBackToMainMenu",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"uiButtonParent","path":"objects/uiButtonParent/uiButtonParent.yy",},"propertyId":{"name":"ui_button_text","path":"objects/uiButtonParent/uiButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Back\"",},
   ],

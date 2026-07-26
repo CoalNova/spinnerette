@@ -2,7 +2,6 @@ self.depth = -200
 
 var controls = [
 	{sprite: spritePromptEsc, text: "Main Menu" },
-	{sprite: spritePromptPause, text: "Pause" },
 	{sprite: spritePromptR, text: "Restart"},
 	{sprite: spritePromptSpace, text: "Grab"},
 	{sprite: spritePromptF, text: "Flip"}
