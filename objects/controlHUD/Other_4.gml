@@ -1,5 +1,3 @@
-self.depth = -200
-
 var controls = [
 	{sprite: spritePromptEsc, text: "Main Menu" },
 	{sprite: spritePromptR, text: "Restart"},
@@ -37,4 +35,3 @@ array_foreach(controls, draw_sprites);
 surface_reset_target()
 
 self.handle_surface = sprite_create_from_surface(handle_surface, 0, 0, surface_width, surface_height, false, false, 0, 0)
-self.loaded = false

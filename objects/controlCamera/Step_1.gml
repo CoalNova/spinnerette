@@ -10,7 +10,7 @@ if (self.camera_modified) {
 
 	var camera_width_scaled = camera_width * camera_scale
 	var camera_height_scaled = camera_height * camera_scale
-	
+
 	var camera_posx_old = camera_get_view_x(camera_id)
 	var camera_posy_old = camera_get_view_y(camera_id)
 	var camera_width_old = camera_get_view_width(camera_id)
@@ -32,4 +32,3 @@ if (self.camera_modified) {
 	)
 
 }
-

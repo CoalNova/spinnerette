@@ -8,3 +8,5 @@ window_set_size(monitor_width_half, monitor_height_half)
 window_center()
 
 surface_resize(application_surface, room_width, room_height)
+
+global.worm_deaths = 0
