@@ -32,3 +32,4 @@ if (self.camera_modified) {
 	)
 
 }
+

@@ -35,6 +35,8 @@
     {"name":"inst_5CC60583","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},
     {"name":"inst_AA6AA12","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},
     {"name":"inst_68FAD224","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},
+    {"name":"inst_6584122A","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},
+    {"name":"inst_542B0FD6","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -68,6 +70,8 @@
         {"$GMRInstance":"v4","%Name":"inst_5CC60583","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5CC60583","objectId":{"name":"objectWall","path":"objects/objectWall/objectWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_AA6AA12","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AA6AA12","objectId":{"name":"objectWall","path":"objects/objectWall/objectWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_68FAD224","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68FAD224","objectId":{"name":"controlBackground","path":"objects/controlBackground/controlBackground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":80.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6584122A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6584122A","objectId":{"name":"controlFlag","path":"objects/controlFlag/controlFlag.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":112.0,},
+        {"$GMRInstance":"v4","%Name":"inst_542B0FD6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_542B0FD6","objectId":{"name":"controlKeybinds","path":"objects/controlKeybinds/controlKeybinds.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":144.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"qaSmokeAll",
