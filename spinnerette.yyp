@@ -51,6 +51,7 @@
     {"id":{"name":"uiButtonLevelSelect","path":"objects/uiButtonLevelSelect/uiButtonLevelSelect.yy",},},
     {"id":{"name":"uiButtonParent","path":"objects/uiButtonParent/uiButtonParent.yy",},},
     {"id":{"name":"uiButtonResume","path":"objects/uiButtonResume/uiButtonResume.yy",},},
+    {"id":{"name":"uiButtonRoomSelect","path":"objects/uiButtonRoomSelect/uiButtonRoomSelect.yy",},},
     {"id":{"name":"uiButtonSettings","path":"objects/uiButtonSettings/uiButtonSettings.yy",},},
     {"id":{"name":"uiButtonSettingsBack","path":"objects/uiButtonSettingsBack/uiButtonSettingsBack.yy",},},
     {"id":{"name":"uiButtonStartGame","path":"objects/uiButtonStartGame/uiButtonStartGame.yy",},},

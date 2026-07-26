@@ -1,0 +1,45 @@
+{
+  "$GMObject":"",
+  "%Name":"uiButtonRoomSelect",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"uiButtonRoomSelect",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"uiButtonParent","path":"objects/uiButtonParent/uiButtonParent.yy",},"propertyId":{"name":"ui_button_text","path":"objects/uiButtonParent/uiButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Level 1: Grab Easy\"",},
+  ],
+  "parent":{
+    "name":"menu",
+    "path":"folders/menu.yy",
+  },
+  "parentObjectId":{
+    "name":"uiButtonParent",
+    "path":"objects/uiButtonParent/uiButtonParent.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"ui_button_room_index","filters":[],"listItems":[],"multiselect":false,"name":"ui_button_room_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"roomMainMenu","varType":2,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spriteMenuButtons",
+    "path":"sprites/spriteMenuButtons/spriteMenuButtons.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}
