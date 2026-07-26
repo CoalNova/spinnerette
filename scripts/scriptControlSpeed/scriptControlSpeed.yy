@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scriptSpeedControl",
+  "%Name":"scriptControlSpeed",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scriptSpeedControl",
+  "name":"scriptControlSpeed",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",

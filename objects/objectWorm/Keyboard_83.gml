@@ -1,3 +1,3 @@
 // Stretch the worm inwards
 
-scriptStretchControl(self, STRETCH.IN)
+script_control_stretch(self, STRETCH.IN)

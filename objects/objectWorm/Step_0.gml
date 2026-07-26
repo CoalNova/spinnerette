@@ -2,7 +2,7 @@
 
 var worm_stretch = self.worm_stretch
 self.image_yscale = worm_stretch
-scriptComputeEnd(self)
+script_compute_end(self)
 
 // Apply rotation
 if (is_bound) {
@@ -12,10 +12,10 @@ if (is_bound) {
 	var worm_speed = self.worm_speed
 	self.x += ((self.end_x - self.x) * (worm_speed)) * (1 / worm_stretch) * 0.05
 	self.y += ((self.end_y - self.y) * (worm_speed)) * (1 / worm_stretch) * 0.05
-	scriptGrabNode(self)
+	script_grab_node(self)
 }
 
-if (scriptCheckCollision(self, objectWall)) {
+if (script_check_collision(self, objectWall)) {
 	if (self.is_bound) {
 		self.worm_flip *= -1;
 		self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 1) * self.worm_flip * 2
@@ -26,7 +26,7 @@ if (scriptCheckCollision(self, objectWall)) {
 	}
 }
 
-var handle_key = scriptCheckCollision(self, objectWindKey)
+var handle_key = script_check_collision(self, objectWindKey)
 if (handle_key) {
 	instance_destroy(handle_key)
 }

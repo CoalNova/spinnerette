@@ -1,4 +1,4 @@
-function scriptComputeEnd(in_worm) {
+function script_compute_end(in_worm) {
 	
 	var worm_sprite_height = in_worm.sprite_height
 	var worm_image_angle = in_worm.image_angle

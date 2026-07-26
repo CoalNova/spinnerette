@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited()
 ui_activate_button = function() {
-	scriptPersistAudioGoto(roomMainMenu, true)
+	script_goto_persist_audio(roomMainMenu, true)
 }

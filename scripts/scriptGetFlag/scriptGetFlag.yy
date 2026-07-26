@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scriptStretchControl",
+  "%Name":"scriptGetFlag",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scriptStretchControl",
+  "name":"scriptGetFlag",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",

@@ -1,4 +1,4 @@
-function scriptGrabNode(in_worm) {
+function script_grab_node(in_worm) {
 
 	var handle_node = instance_position(in_worm.end_x, in_worm.end_y, objectGear);
 

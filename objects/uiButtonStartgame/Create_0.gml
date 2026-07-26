@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited()
 ui_activate_button = function() {
-	room_goto(qaSmokeAll)
+	script_goto_persist_audio(qaSmoke, false)
 }
