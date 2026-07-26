@@ -1,4 +1,4 @@
-function scriptSpeedControl(in_worm, in_dir){
+function script_control_speed(in_worm, in_dir){
 	
 	var worm_speed_old = in_worm.worm_speed
 	var worm_speed_min = in_worm.worm_speed_min

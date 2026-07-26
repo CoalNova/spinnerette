@@ -1,3 +1,3 @@
 // Increase leftwards rotation speed
 
-scriptSpeedControl(self, DIR.LEFT);
+script_control_speed(self, DIR.LEFT);

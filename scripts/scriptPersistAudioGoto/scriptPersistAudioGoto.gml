@@ -1,4 +1,4 @@
-function scriptPersistAudioGoto(in_room, in_persist) {
+function script_goto_persist_audio(in_room, in_persist) {
 	controlSound.audio_persist = in_persist
 	room_goto(in_room)
 }
