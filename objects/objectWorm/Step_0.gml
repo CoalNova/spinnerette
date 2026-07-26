@@ -15,4 +15,20 @@ if (is_bound) {
 }
 
 scriptComputeEnd(self)
-scriptCheckCollisionWall(self);
+
+if (scriptCheckCollision(self, objectWall)) {
+	if (self.is_bound) {
+			self.worm_flip *= -1;
+		} else {
+			if (self.flag_debug) {
+				self.x = self.start_x
+				self.y = self.start_y
+				self.is_bound = true
+			}
+	}
+}
+
+var handle_key = scriptCheckCollision(self, objectWindKey)
+if (handle_key) {
+	instance_destroy(handle_key)
+}

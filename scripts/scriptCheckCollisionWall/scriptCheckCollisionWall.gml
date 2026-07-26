@@ -1,13 +1,9 @@
-function scriptCheckCollisionWall(in_worm){
-	if (collision_line(in_worm.x, in_worm.y, in_worm.end_x, in_worm.end_y, objectWall, true, true) != noone){
-		if (in_worm.is_bound) {
-			in_worm.worm_flip *= -1;
-		} else {
-			if (self.flag_debug) {
-				self.x = self.start_x
-				self.y = self.start_y
-				self.is_bound = true
-			}
-		}
+function scriptCheckCollision(in_worm, in_target) {
+	
+	var handle_collide = collision_line(in_worm.x, in_worm.y, in_worm.end_x, in_worm.end_y, in_target, true, true)
+	if (handle_collide != noone) {
+		return handle_collide
 	}
+	return noone
+
 }
