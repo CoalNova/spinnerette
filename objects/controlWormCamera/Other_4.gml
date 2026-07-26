@@ -7,11 +7,14 @@ var handle_worm = objectWorm
 var worm_posx = handle_worm.x
 var worm_posy = handle_worm.y
 
-self.camera_width = window_get_width() / 2
-self.camera_height = window_get_height() / 2
+var target_width = 1920 / 2
+var target_height = 1080 / 2
+
+self.camera_width = target_width
+self.camera_height = target_height
 self.camera_scale = 1
 self.camera_scale_min = 0.8
-self.camera_scale_max = 1.6
+self.camera_scale_max = 1.8
 self.camera_scale_step = 0.08
 self.camera_modified = 0
 
@@ -35,3 +38,5 @@ view_camera[self.camera_index] = camera_create_view(
 )
 
 self.camera_id = view_camera[self.camera_index]
+
+surface_resize(application_surface, target_width, target_height)

@@ -103,8 +103,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"qaSmokeAll","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},},
     {"roomId":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
+    {"roomId":{"name":"qaSmokeAll","path":"rooms/qaSmokeAll/qaSmokeAll.yy",},},
     {"roomId":{"name":"level1GrabEasy","path":"rooms/level1GrabEasy/level1GrabEasy.yy",},},
     {"roomId":{"name":"level2GrabHard","path":"rooms/level2GrabHard/level2GrabHard.yy",},},
     {"roomId":{"name":"level3StretchEasy","path":"rooms/level3StretchEasy/level3StretchEasy.yy",},},
