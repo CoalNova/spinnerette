@@ -1,0 +1,1 @@
+audio_play_sound(TickTockBase, 100, true)
