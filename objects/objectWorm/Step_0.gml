@@ -1,7 +1,8 @@
 // Apply stretch
 
 var worm_stretch = self.worm_stretch
-self.image_yscale = self.flag_stretch ? worm_stretch : 1
+self.image_yscale = worm_stretch
+scriptComputeEnd(self)
 
 // Apply rotation
 if (is_bound) {
@@ -14,11 +15,10 @@ if (is_bound) {
 	scriptGrabNode(self)
 }
 
-scriptComputeEnd(self)
-
 if (scriptCheckCollision(self, objectWall)) {
 	if (self.is_bound) {
 			self.worm_flip *= -1;
+			self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 1) * self.worm_flip * 2
 		} else {
 			if (self.flag_debug) {
 				self.x = self.start_x

@@ -5,7 +5,14 @@ enum DIR {
 	RIGHT
 }
 
+enum STRETCH {
+	OUT,
+	IN
+}
+
 self.worm_stretch = 1
+self.worm_stretch_out = 1.05
+self.worm_stretch_in = 0.96
 self.worm_stretch_min = 1
 self.worm_stretch_max = 3
 self.worm_flip = 1

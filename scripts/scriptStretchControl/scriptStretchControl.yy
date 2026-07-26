@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scriptCheckCollisionWall",
+  "%Name":"scriptStretchControl",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scriptCheckCollisionWall",
+  "name":"scriptStretchControl",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",
