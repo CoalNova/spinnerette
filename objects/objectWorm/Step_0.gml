@@ -15,5 +15,4 @@ if (is_bound) {
 }
 
 scriptComputeEnd(self)
-
 scriptCheckCollisionWall(self);

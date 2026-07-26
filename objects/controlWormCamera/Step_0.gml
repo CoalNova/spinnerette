@@ -1,7 +1,8 @@
 var camera_id = self.camera_id
+
 var handle_worm = objectWorm
-var worm_posx = handle_worm.x
-var worm_posy = handle_worm.y
+var worm_posx = handle_worm.is_bound ? handle_worm.x : handle_worm.end_x
+var worm_posy = handle_worm.is_bound ? handle_worm.y : handle_worm.end_y
 
 var camera_scale = self.camera_scale
 var camera_width = self.camera_width * camera_scale
@@ -22,7 +23,7 @@ var distance_y = min(abs(camera_worm_distance_y), distance_max)
 var distance_percent_x = distance_x / distance_max
 var distance_percent_y = distance_y / distance_max
 
-var speed_max = 10
+var speed_max = 20
 
 var speed_x = lerp(0, speed_max, distance_percent_x)
 var speed_y = lerp(0, speed_max, distance_percent_y)

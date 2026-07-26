@@ -15,8 +15,10 @@ self.worm_speed_dec = 0.80
 self.worm_speed_min = 1
 self.worm_speed_max = 4
 self.is_bound = true
+
 self.start_x = self.x
 self.start_y = self.y
+
 scriptComputeEnd(self)
 
 var rooms_stretch = [
