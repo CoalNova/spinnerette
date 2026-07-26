@@ -1,4 +1,4 @@
-depth = -16000
+self.depth = -100
 
 enum DIR {
 	LEFT,

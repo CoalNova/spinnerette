@@ -1,3 +1,5 @@
+self.depth = 100
+
 var real_max = 3.402823 * (10^38)
 
 random_set_seed(real_max, true)
