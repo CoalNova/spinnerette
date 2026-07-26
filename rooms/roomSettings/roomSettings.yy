@@ -1,12 +1,12 @@
 {
   "$GMRoom":"v1",
-  "%Name":"settingsMenu",
+  "%Name":"roomSettings",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_1AB1B6F3","path":"rooms/settingsMenu/settingsMenu.yy",},
+    {"name":"inst_1AB1B6F3","path":"rooms/roomSettings/roomSettings.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,7 +20,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4283402651,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"settingsMenu",
+  "name":"roomSettings",
   "parent":{
     "name":"levels",
     "path":"folders/levels.yy",

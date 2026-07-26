@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"TickTockBase",
+  "%Name":"soundTickTock",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":1.9330612,
   "exportDir":"",
-  "name":"TickTockBase",
+  "name":"soundTickTock",
   "parent":{
     "name":"sounds",
     "path":"folders/sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"TickTockBase.mp3",
+  "soundFile":"soundTickTock.mp3",
   "volume":1.0,
 }

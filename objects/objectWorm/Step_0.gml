@@ -17,14 +17,12 @@ if (is_bound) {
 
 if (scriptCheckCollision(self, objectWall)) {
 	if (self.is_bound) {
-			self.worm_flip *= -1;
-			self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 1) * self.worm_flip * 2
-		} else {
-			if (self.flag_debug) {
-				self.x = self.start_x
-				self.y = self.start_y
-				self.is_bound = true
-			}
+		self.worm_flip *= -1;
+		self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 1) * self.worm_flip * 2
+	} else if (self.flag_debug) {
+		self.x = self.start_x
+		self.y = self.start_y
+		self.is_bound = true
 	}
 }
 

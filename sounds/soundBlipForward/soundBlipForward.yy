@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"BlipFwd",
+  "%Name":"soundBlipForward",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":2.9779592,
   "exportDir":"",
-  "name":"BlipFwd",
+  "name":"soundBlipForward",
   "parent":{
     "name":"sounds",
     "path":"folders/sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"BlipFwd.mp3",
+  "soundFile":"soundBlipForward.mp3",
   "volume":1.0,
 }
