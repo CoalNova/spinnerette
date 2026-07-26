@@ -1,0 +1,1 @@
+room_goto(asset_get_index(ui_button_room_index));
