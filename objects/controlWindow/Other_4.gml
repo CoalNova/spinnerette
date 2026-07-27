@@ -10,3 +10,5 @@ window_center()
 surface_resize(application_surface, room_width, room_height)
 
 global.worm_deaths = 0
+
+draw_set_font(uiFont1)

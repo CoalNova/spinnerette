@@ -21,6 +21,7 @@ self.worm_speed_acc = 1.10
 self.worm_speed_dec = 0.80
 self.worm_speed_min = 1
 self.worm_speed_max = 4
+self.is_alive = true
 
 handle_node = instance_nearest(self.x, self.y, objectGear)
 self.x = handle_node.x

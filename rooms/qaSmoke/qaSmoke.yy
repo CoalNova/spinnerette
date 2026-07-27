@@ -36,6 +36,7 @@
     {"name":"inst_AA6AA12","path":"rooms/qaSmoke/qaSmoke.yy",},
     {"name":"inst_68FAD224","path":"rooms/qaSmoke/qaSmoke.yy",},
     {"name":"inst_542B0FD6","path":"rooms/qaSmoke/qaSmoke.yy",},
+    {"name":"inst_6897527B","path":"rooms/qaSmoke/qaSmoke.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -70,6 +71,7 @@
         {"$GMRInstance":"v4","%Name":"inst_AA6AA12","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AA6AA12","objectId":{"name":"objectWall","path":"objects/objectWall/objectWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_68FAD224","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68FAD224","objectId":{"name":"controlBackground","path":"objects/controlBackground/controlBackground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},
         {"$GMRInstance":"v4","%Name":"inst_542B0FD6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_542B0FD6","objectId":{"name":"controlHUD","path":"objects/controlHUD/controlHUD.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":80.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6897527B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6897527B","objectId":{"name":"objectExplosion","path":"objects/objectExplosion/objectExplosion.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":400.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"qaSmoke",

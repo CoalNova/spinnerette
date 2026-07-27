@@ -4,8 +4,8 @@ view_enabled = true
 view_visible[self.camera_index] = true
 
 var handle_worm = objectWorm
-var worm_posx = handle_worm.x
-var worm_posy = handle_worm.y
+var worm_x = handle_worm.x
+var worm_y = handle_worm.y
 
 var target_width = 1920 / 2
 var target_height = 1080 / 2
@@ -21,12 +21,12 @@ self.camera_modified = 0
 var camera_width = self.camera_width
 var camera_height = self.camera_height
 
-var camera_worm_posx_offset = worm_posx - (camera_width / 2)
-var camera_worm_posy_offset = worm_posy - (camera_height / 2)
+var camera_worm_x_offset = worm_x - (camera_width / 2)
+var camera_worm_y_offset = worm_y - (camera_height / 2)
 
 view_camera[self.camera_index] = camera_create_view(
-	camera_worm_posx_offset,
-	camera_worm_posy_offset,
+	camera_worm_x_offset,
+	camera_worm_y_offset,
 	camera_width,
 	camera_height,
 	0,

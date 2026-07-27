@@ -32,16 +32,52 @@ var draw_sprites = function(in_pair, in_index) {
     draw_sprite(in_pair.sprite, 0, 0, buffer_y)
 	var buffer_text_x = 165
 	var buffer_text_y = 32 + (in_index * icon_height)
-	var text_offset = 2
-    draw_text(buffer_text_x - text_offset, buffer_text_y - text_offset, in_pair.text)
-	draw_text(buffer_text_x + text_offset, buffer_text_y - text_offset, in_pair.text)
-	draw_text(buffer_text_x - text_offset, buffer_text_y + text_offset, in_pair.text)
-	draw_text(buffer_text_x + text_offset, buffer_text_y + text_offset, in_pair.text)
-	draw_set_color(c_white)
-	draw_text(buffer_text_x, buffer_text_y, in_pair.text)
+	script_shadow_text(in_pair.text, buffer_text_x, buffer_text_y)
 }
 
 array_foreach(controls, draw_sprites);
 surface_reset_target()
 
 self.handle_surface = sprite_create_from_surface(handle_surface, 0, 0, surface_width, surface_height, false, false, 0, 0)
+
+var countdown_timer = 0
+
+switch (room) {
+	case qaSmoke:
+		countdown_timer = 10
+		break
+	case level1GrabEasy:
+		countdown_timer = 20
+		break
+	case level2GrabHard:
+		countdown_timer = 20
+		break
+	case level3StretchEasy:
+		countdown_timer = 0
+		break
+	case level4StretchHard:
+		countdown_timer = 0
+		break
+	case level5SpeedEasy:
+		countdown_timer = 0
+		break
+	case level6SpeedHard:
+		countdown_timer = 0
+		break
+	case level7JumpEasy:
+		countdown_timer = 0
+		break
+	case level8JumpHard:
+		countdown_timer = 0
+		break
+	case level9AllEasy:
+		countdown_timer = 0
+		break
+	case level10AllHard:
+		countdown_timer = 0
+		break
+}
+
+self.countdown_timer = countdown_timer
+self.countdown_epoch = current_time
+self.countdown_freeze = 0
