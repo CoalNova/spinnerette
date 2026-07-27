@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scriptCheckCollision",
+  "%Name":"scriptCheckCollisionList",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scriptCheckCollision",
+  "name":"scriptCheckCollisionList",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",

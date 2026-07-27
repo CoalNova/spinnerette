@@ -16,7 +16,7 @@ if (self.is_alive) {
 		script_grab_node(self)
 	}
 
-	if (script_check_collision(self, objectWall)) {
+	if (script_check_collision_single(self, objectWall)) {
 		if (self.is_bound) {
 			self.worm_flip *= -1;
 			self.image_angle += (self.flag_speed ? self.worm_speed * (1 / worm_stretch) : 2) * self.worm_flip * 2
@@ -27,11 +27,11 @@ if (self.is_alive) {
 		} else {
 			script_death(self)
 		}
-	} else if (script_check_collision(self, objectSpike)) {
+	} else if (script_check_collision_single(self, objectSpike)) {
 		script_death(self)
 	}
 
-	var handle_key = script_check_collision(self, objectWindKey)
+	var handle_key = script_check_collision_single(self, objectWindKey)
 	if (handle_key) {
 		if (self.bound_node && self.bound_node.object_index == objectGearGoal) {
 			room_goto_next()
@@ -40,12 +40,16 @@ if (self.is_alive) {
 	}
 
 	
-	var handle_pellet = script_check_collision(self, objectTimePellet)
+	var handle_pellet = script_check_collision_list(self, objectTimePellet)
 	if (handle_pellet) {
-		if (handle_pellet.pellet_enabled){
-			script_add_time(handle_pellet.seconds_to_add)
-			handle_pellet.pellet_enabled = false;
-			handle_pellet.visible = false;
+		var pellet_size = ds_list_size(handle_pellet) - 1
+		for (var temp_itr = 0; temp_itr <= pellet_size; temp_itr++) {
+			var temp_pellet = ds_list_find_value(handle_pellet, temp_itr)
+			if (temp_pellet.pellet_enabled) {
+				script_add_time(temp_pellet.seconds_to_add)
+				temp_pellet.pellet_enabled = false
+				temp_pellet.visible = false
+			}
 		}
 		
 	}

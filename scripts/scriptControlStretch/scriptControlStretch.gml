@@ -10,7 +10,7 @@ function script_control_stretch(in_worm, in_stretch) {
 		if (check_out) {
 			in_worm.image_yscale = worm_stretch_new
 			script_compute_end(in_worm)
-			if (script_check_collision(in_worm, objectWall)) {
+			if (script_check_collision_single(in_worm, objectWall)) {
 				in_worm.image_yscale = worm_stretch_old
 				in_worm.worm_stretch = worm_stretch_old
 			} else {
