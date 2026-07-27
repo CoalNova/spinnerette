@@ -33,6 +33,8 @@ self.is_bound = true
 
 script_compute_end(self)
 
+self.flag_flip = room_has_flip()
+self.flag_restart = room_has_restart()
 self.flag_stretch = room_has_stretch()
 self.flag_speed = room_has_speed()
 self.flag_jump = room_has_jump()

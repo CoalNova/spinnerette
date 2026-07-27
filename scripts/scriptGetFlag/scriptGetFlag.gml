@@ -2,6 +2,14 @@ function room_is_debug() {
 	return room == qaSmoke
 }
 
+function room_has_flip() {
+	return room != roomMainMenu
+}
+
+function room_has_restart() {
+	return room != roomMainMenu
+}
+
 function room_has_stretch() {
 	var rooms_stretch = [
 		level3StretchEasy,
