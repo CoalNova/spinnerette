@@ -5,7 +5,7 @@ function script_death(in_worm) {
 	}
 	
 	in_worm.is_alive = false
-	controlHUD.countdown_freeze = current_time
+	controlHUD.countdown_death = current_time
 	global.worm_deaths += 1
 	
 	var worm_stretch = in_worm.worm_stretch

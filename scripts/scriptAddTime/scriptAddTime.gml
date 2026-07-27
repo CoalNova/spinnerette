@@ -1,3 +1,3 @@
-function scriptAddTime(time_val){
-	controlHUD.countdown_timer += time_val;
+function script_add_time(time_val){
+	controlHUD.countdown_time += time_val;
 }

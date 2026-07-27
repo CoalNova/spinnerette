@@ -8,26 +8,8 @@ var camera_width_half = camera_width / 2
 
 var font_size_half = font_get_size(uiFont1) / 2
 var buffer_y = font_size_half + 10
-self.countdown_timer -= delta_time / 1000000;
 
-var handle_worm = objectWorm
-
-if (self.countdown_timer <= 0 && handle_worm.is_alive) {
-	script_death(handle_worm)
-}
-
-if (!handle_worm.is_alive) {
-	var since_death = floor((current_time - self.countdown_freeze) / 1000)
-	if (since_death == 2) {
-		room_restart()
-	}
-}
-
-var countdown_todraw = handle_worm.is_alive ?
-	(self.countdown_timer >= 0 ? self.countdown_timer : 0)
-	: self.countdown_timer - floor((self.countdown_freeze - self.countdown_epoch) / 1000)
-
-script_shadow_text(countdown_todraw, camera_width_half, buffer_y)
+script_shadow_text(self.countdown_todraw, camera_width_half, buffer_y)
 
 var worm_deaths_string = $"Deaths: {global.worm_deaths}"
 var worm_deaths_string_width = string_width(worm_deaths_string)

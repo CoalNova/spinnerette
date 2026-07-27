@@ -40,44 +40,46 @@ surface_reset_target()
 
 self.handle_surface = sprite_create_from_surface(handle_surface, 0, 0, surface_width, surface_height, false, false, 0, 0)
 
-var countdown_timer = 0
+var countdown_room_initial = 0
 
 switch (room) {
 	case qaSmoke:
-		countdown_timer = 10
+		countdown_room_initial = 10
 		break
 	case level1GrabEasy:
-		countdown_timer = 20
+		countdown_room_initial = 20
 		break
 	case level2GrabHard:
-		countdown_timer = 20
+		countdown_room_initial = 20
 		break
 	case level3StretchEasy:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 	case level4StretchHard:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 	case level5SpeedEasy:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 	case level6SpeedHard:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 	case level7JumpEasy:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 	case level8JumpHard:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 	case level9AllEasy:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 	case level10AllHard:
-		countdown_timer = 0
+		countdown_room_initial = 0
 		break
 }
 
-self.countdown_timer = countdown_timer
+self.countdown_time = countdown_room_initial
 self.countdown_epoch = current_time
-self.countdown_freeze = 0
+self.countdown_todraw = self.countdown_time
+self.countdown_death = 0
+self.countdown_flatten = 1000
