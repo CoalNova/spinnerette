@@ -53,28 +53,28 @@ switch (room) {
 		countdown_room_initial = 20
 		break
 	case level3StretchEasy:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 	case level4StretchHard:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 	case level5SpeedEasy:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 	case level6SpeedHard:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 	case level7JumpEasy:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 	case level8JumpHard:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 	case level9AllEasy:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 	case level10AllHard:
-		countdown_room_initial = 0
+		countdown_room_initial = 20
 		break
 }
 
