@@ -28,5 +28,8 @@ if (script_check_collision(self, objectWall)) {
 
 var handle_key = script_check_collision(self, objectWindKey)
 if (handle_key) {
+	if (self.bound_node && self.bound_node.object_index == objectGearGoal) {
+		room_goto_next()
+	}
 	instance_destroy(handle_key)
 }
