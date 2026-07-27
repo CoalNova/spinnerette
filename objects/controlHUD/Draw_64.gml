@@ -8,12 +8,11 @@ var camera_width_half = camera_width / 2
 
 var font_size_half = font_get_size(uiFont1) / 2
 var buffer_y = font_size_half + 10
-var countdown_difference = floor((current_time - self.countdown_epoch) / 1000)
-var countdown_current = self.countdown_timer - countdown_difference
+self.countdown_timer -= delta_time / 1000000;
 
 var handle_worm = objectWorm
 
-if (countdown_current == 0 && handle_worm.is_alive) {
+if (self.countdown_timer <= 0 && handle_worm.is_alive) {
 	script_death(handle_worm)
 }
 
@@ -25,7 +24,7 @@ if (!handle_worm.is_alive) {
 }
 
 var countdown_todraw = handle_worm.is_alive ?
-	(countdown_current >= 0 ? countdown_current : 0)
+	(self.countdown_timer >= 0 ? self.countdown_timer : 0)
 	: self.countdown_timer - floor((self.countdown_freeze - self.countdown_epoch) / 1000)
 
 script_shadow_text(countdown_todraw, camera_width_half, buffer_y)

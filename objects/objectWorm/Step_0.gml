@@ -39,4 +39,15 @@ if (self.is_alive) {
 		instance_destroy(handle_key)
 	}
 
+	
+	var handle_pellet = script_check_collision(self, objectTimePellet)
+	if (handle_pellet) {
+		if (handle_pellet.pellet_enabled){
+			scriptAddTime(handle_pellet.seconds_to_add)
+			handle_pellet.pellet_enabled = false;
+			handle_pellet.visible = false;
+		}
+		
+	}
+
 }

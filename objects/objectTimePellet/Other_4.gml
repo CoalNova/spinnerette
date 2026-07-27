@@ -1,0 +1,1 @@
+self.pellet_enabled = true;
