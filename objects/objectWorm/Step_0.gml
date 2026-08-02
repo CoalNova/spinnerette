@@ -53,5 +53,7 @@ if (self.is_alive) {
 		}
 		
 	}
-
+	if ( script_check_collision_single(self, objectEnemyWorm)) {
+		script_death(self)	
+	}
 }
